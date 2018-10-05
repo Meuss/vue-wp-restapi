@@ -48,6 +48,7 @@ Go through the regular local wordpress install:
     - screenshot.png (1200x800)
     - style.css
 - Activate the theme in the wp dashboard
+- Don't forget to edit gitignore
 
 ## Configuration for Vue / webpack
 

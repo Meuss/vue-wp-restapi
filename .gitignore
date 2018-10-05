@@ -32,7 +32,7 @@ wordpress/wp-content/*
 
 # ignore themes except macmac
 wordpress/wp-content/themes/*
-!wordpress/wp-content/themes/macmac/
+!wordpress/wp-content/themes/my-theme/
 
 # track favicon files, if they exist
 !android-chrome-*.png
