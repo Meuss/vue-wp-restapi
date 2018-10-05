@@ -1,0 +1,46 @@
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# .gitignore for WordPress
+# https://salferrarello.com/wordpress-gitignore/
+
+# ignore everything in the root except the "wp-content" directory.
+!wordpress/
+
+wordpress/*
+!wordpress/wp-content/
+
+# ignore everything in the "wp-content" directory, except themes
+wordpress/wp-content/*
+!wordpress/wp-content/themes/
+
+# ignore themes except macmac
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/macmac/
+
+# track favicon files, if they exist
+!android-chrome-*.png
+!apple-touch-icon*.png
+!browserconfig.xml
+!favicon*.png
+!favicon*.ico
+!manifest.json
+!mstile-*.png
+!safari-pinned-tab.svg
+!site.webmanifest
