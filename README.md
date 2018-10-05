@@ -23,7 +23,7 @@
 
 ``` bash
 # go through regular cli install..
-npm init webpack vue-wp-restapi
+npm init webpack my-project
 .....
 npm i axios -S
 npm run dev
