@@ -3,8 +3,8 @@
     <h1>Example of listing regular posts</h1>
     <div v-for="(post, index) in posts" :key="index" class="post">
       <h3>{{post.title.rendered}}</h3>
-      <div class="published">{{post.date}}</div>
-      <div class="exerpt" v-html="post.excerpt.rendered"></div>
+      <div>{{post.date}}</div>
+      <div v-html="post.excerpt.rendered"></div>
     </div>
   </div>
 </template>
