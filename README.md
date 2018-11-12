@@ -22,7 +22,7 @@
 #### Load up a new vue project
 
 ``` bash
-# go through regular cli install..
+# go through regular cli install, this is for vue-cli 2
 npm init webpack my-project
 .....
 npm i axios -S
